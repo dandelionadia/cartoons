@@ -14,6 +14,11 @@ const arr = [
         id: 2,
         name: 'Avatar. The Legend of Aang',
         type: 'history'
+    },
+    {
+        id: 3,
+        name: ' Aang',
+        type: 'history'
     }
 ]
 
@@ -28,7 +33,7 @@ class Cards extends React.Component {
             )
         })
         return (
-            <div>{card}</div>
+            <div className="box">{card}</div>
         )
     }
 }
@@ -36,6 +41,7 @@ class Cards extends React.Component {
 const App = () => {
     return (
         <div>
+            <h1 className="title">Cartoons</h1>
             <Cards data={arr} />
         </div>
     )
