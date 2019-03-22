@@ -27,8 +27,11 @@ class Cards extends React.Component {
         const card = this.props.data.map(function(item) {
             return (
                 <div className="card" key={item.id}>
-                    <p className="card__name">{item.name}</p>
-                    <p className="card__Type">{item.type}</p>
+                    <img className="card__img" src="https://imgix.ranker.com/user_node_img/50058/1001158933/original/momo-is-an-incarnation-of-aye-aye-the-lemur-spirit-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces" alt="img"></img>
+                    <div className="card__box-info">
+                        <p className="card__name">{item.name}</p>
+                        <p className="card__type">{item.type}</p>
+                    </div>
                 </div>
             )
         })
@@ -49,7 +52,4 @@ const App = () => {
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
