@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './card.css';
+import './card.scss';
 import * as serviceWorker from './serviceWorker';
 
 const arr = [
@@ -26,7 +26,7 @@ const arrType = [
     {
         id: 1,
         img: 'https://cfvod.kaltura.com/p/1836881/sp/183688100/thumbnail/entry_id/0_g8zctc7p/version/100012/width/600/height/400',
-        text: 'text',
+        text: 'Text name',
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ const arrType = [
     {
         id: 3,
         img: 'https://cfvod.kaltura.com/p/1836881/sp/183688100/thumbnail/entry_id/0_g8zctc7p/version/100012/width/600/height/400',
-        text: 'text',
+        text: 'Text name',
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ const arrType = [
     {
         id: 5,
         img: 'https://cfvod.kaltura.com/p/1836881/sp/183688100/thumbnail/entry_id/0_g8zctc7p/version/100012/width/600/height/400',
-        text: 'text',
+        text: 'Text name',
     },
     {
         id: 6,
@@ -81,8 +81,8 @@ class CardType extends React.Component {
         const cardType = this.props.data.map(function(item) {
             return (
                 <div className="cardType" key={item.id}>
-                    <Image src={arrType.src}/>
-                    <p className="cardType__text">{item.text}</p>
+                    <Image className="cardType__img" src={arrType.src}/>
+                    <div className="cardType__text">{item.text}</div>
                 </div>
             )
         })
@@ -100,7 +100,7 @@ const srcElement = {
 }
 
 const Image = () => {
-    return <img className="card__img" src={srcElement.src.b} alt="img"></img>
+    return <img className="card__img cardType__img" src={srcElement.src.b} alt="img"></img>
 }
 
 const App = () => {
