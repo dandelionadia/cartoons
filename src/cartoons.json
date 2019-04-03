@@ -1,7 +1,22 @@
 [
     {
         "id": 1,
-        "img": "https://cfvod.kaltura.com/p/1836881/sp/183688100/thumbnail/entry_id/0_g8zctc7p/version/100012/width/600/height/400",
+        "img": "https://comicsgrinder.files.wordpress.com/2016/05/adventure-time-ice-king.jpg",
+        "text": "Text name"
+    },
+    {
+        "id": 2,
+        "img": "http://img.babyblog.ru/7/9/4/7944d5c39c4152cc47dd2c740d19654c.bmp",
+        "text": "Text name"
+    },
+    {
+        "id": 3,
+        "img": "https://www.cuspide.com/content/cover/large/9789504964933_1.jpg?id_com=1113",
+        "text": "Text name"
+    },
+    {
+        "id": 4,
+        "img": "http://img1.ak.crunchyroll.com/i/spire1/3011e12b3395d39a18379d9e9fdc30671502581680_full.jpg",
         "text": "Text name"
     }
 ]
