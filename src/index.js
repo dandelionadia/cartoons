@@ -29,20 +29,24 @@ class AboutCartoons extends React.Component {
     render() {
         const AboutCartoons = this.props.data.map(function (item) {
             return (
-                <div class="grid-container">
-                    <div className="image">{item.image}</div>
-                    <div className="content">
-                        <h3>{item.content.title}</h3>
-                        <div>{item.content.description}</div>
+                <div class="wrapper">
+                    <div className="infomation">
+                        <img className="image" src={item.image} />
+                        <div className="content">
+                            <h3>{item.content.title}</h3>
+                            <div>{item.content.description}</div>
+                        </div>
                     </div>
-                    <div className="apisodes">{item.apisodes}
-                        <div><a href={item.apisodes.href}>{item.apisodes.nameApisodes}</a></div>
+                    <div className="apisodes">
+                        <a href={item.apisodes.href}>
+                            {item.apisodes.nameApisodes}
+                        </a>
                     </div>
                 </div>
             )
         })
         return (
-            <div>{AboutCartoons}</div>
+            <div className="container">{AboutCartoons}</div>
         )
     }
 }
