@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './card.scss';
-import './aboutCartoons.css';
+import './aboutCartoons.scss';
 import * as serviceWorker from './serviceWorker';
 
 import cartoons from './cartoons.json'
@@ -33,14 +33,19 @@ class AboutCartoons extends React.Component {
                     <div className="infomation">
                         <img className="image" src={item.image} />
                         <div className="content">
-                            <h3>{item.content.title}</h3>
-                            <div>{item.content.description}</div>
+                            <h2>{item.content.title}</h2>
+                            <div className="text">{item.content.description}</div>
+                        </div>
+                        <div className="menu-btn">
+                            <div className="menu-btn__line"></div>
+                            <div className="menu-btn__line"></div>
                         </div>
                     </div>
                     <div className="apisodes">
-                        <a href={item.apisodes.href}>
-                            {item.apisodes.nameApisodes}
-                        </a>
+                        <div>
+                            <iframe src={item.apisodes.src} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>{item.apisodes.nameApisodes}</h3>
+                        </div>
                     </div>
                 </div>
             )
