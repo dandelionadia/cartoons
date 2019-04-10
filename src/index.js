@@ -41,11 +41,15 @@ class AboutCartoons extends React.Component {
                             <div className="menu-btn__line"></div>
                         </div>
                     </div>
-                    <div className="apisodes">
-                        <div>
-                            <iframe src={item.apisodes.src} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h3>{item.apisodes.nameApisodes}</h3>
-                        </div>
+
+                    <h2>Episodes</h2>
+                    <div className="episodes">
+                        {item.episodes.map((episode) => (
+                            <div className="episodes__containerVideo">
+                                <iframe src={episode.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h3>{episode.name}</h3>
+                            </div>
+                        ))}
                     </div>
                 </div>
             )
