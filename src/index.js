@@ -25,6 +25,21 @@ class CardType extends React.Component {
     }
 }
 
+function Video(props) {
+    return (
+        <iframe className="video" src={props.episode} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    )
+}
+
+function Button() {
+    return (
+        <div className="menu-btn">
+            <div className="menu-btn__line"></div>
+            <div className="menu-btn__line"></div>
+        </div>
+    )
+}
+
 class AboutCartoons extends React.Component {
     render() {
         const AboutCartoons = this.props.data.map(function (item) {
@@ -34,19 +49,18 @@ class AboutCartoons extends React.Component {
                         <img className="image" src={item.image} />
                         <div className="content">
                             <h2>{item.content.title}</h2>
-                            <div className="text">{item.content.description}</div>
+                            <div className="content__text">
+                                {item.content.description}
+                            </div>
                         </div>
-                        <div className="menu-btn">
-                            <div className="menu-btn__line"></div>
-                            <div className="menu-btn__line"></div>
-                        </div>
+                        <Button />
                     </div>
 
                     <h2>Episodes</h2>
                     <div className="episodes">
                         {item.episodes.map((episode) => (
                             <div className="episodes__containerVideo">
-                                <iframe className="video" src={episode.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <Video episode={episode.videoUrl} />
                                 <h3>{episode.name}</h3>
                             </div>
                         ))}

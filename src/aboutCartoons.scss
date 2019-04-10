@@ -19,7 +19,7 @@
     grid-gap: 20px;
 
     @media (min-width: 768px) {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 200px 1fr;
     }
     
     @media (min-width: 992px) {
@@ -74,17 +74,18 @@
 
 .content {
     background-color: #fff;
-    padding: 30px 60px 30px 60px;
+    padding: 0 60px 0 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     @media (min-width: 768px) {
-        padding: 30px;
+        padding: 0 30px;
     }
+    
     @media (min-width: 1200px) {
-        padding: 30px 60px 30px 60px;
+        padding: 0 60px 0 60px;
     }
 }
 
@@ -96,6 +97,10 @@
     cursor: pointer;
     transition: transform;
     transform: rotate(180deg);
+
+    @media (max-width: 768px) {
+       top: 25px;
+    }
 
     &__line {
         background-color: black;
