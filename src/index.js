@@ -46,7 +46,7 @@ class AboutCartoons extends React.Component {
                     <div className="episodes">
                         {item.episodes.map((episode) => (
                             <div className="episodes__containerVideo">
-                                <iframe src={episode.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className="video" src={episode.videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <h3>{episode.name}</h3>
                             </div>
                         ))}

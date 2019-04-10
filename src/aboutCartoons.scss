@@ -39,9 +39,10 @@
     margin-top: 20px;
 
     &__containerVideo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
     }
 
     @media (min-width: 576px) {
@@ -56,6 +57,14 @@
         grid-template-columns: repeat(4, 1fr);
         max-width: 1500px;
     }
+}
+
+.video {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .image {
@@ -93,6 +102,11 @@
         width: 30px;
         height: 3px;
         margin: 0 0 -2px 0;
+
+        @media (max-width: 768px) {
+            width: 20px;
+            height: 2px;
+        }
     }
 }
 
@@ -103,5 +117,5 @@
 
     &:nth-child(2) {
         transform: rotate(-45deg);
-      }
+    }
 }
