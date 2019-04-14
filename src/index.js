@@ -10,9 +10,9 @@ import aboutCartoons from './aboutCartoons.json'
 
 class CardType extends React.Component {
     render() {
-        const cardType = this.props.data.map(function (item) {
+        const cardType = this.props.data.map((item) => {
             return (
-                <div className="cardType" key={item.id}>
+                <div className="cardType" key={item.id} onClick={this.props.onItemClick}>
                     <Image className="cardType__img" src={item.img} />
                     <div className="cardType__text">{item.text}</div>
                 </div>
@@ -78,13 +78,29 @@ const Image = ({ src }) => {
     return <img className="cardType__img" src={src} alt="img" />
 }
 
-const App = () => {
-    return (
-        <div>
-            <CardType data={cartoons} />
-            <AboutCartoons data={aboutCartoons} />
-        </div>
-    )
+class App extends React.Component {
+    state = {
+        showPopup: false
+    }
+
+    handleItemClick = () => {
+        this.setState({
+            showPopup: true
+        })
+    }
+
+    render() {
+        const { showPopup } = this.state
+
+        return (
+            <div>
+                <CardType data={cartoons} onItemClick={this.handleItemClick} />
+                {showPopup && (
+                    <AboutCartoons data={aboutCartoons} />
+                )}
+            </div>
+        )
+    }
 }
 
 ReactDOM.render(
