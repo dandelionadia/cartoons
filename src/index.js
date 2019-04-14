@@ -31,9 +31,9 @@ function Video(props) {
     )
 }
 
-function Button() {
+function Button(props) {
     return (
-        <div className="menu-btn">
+        <div className="menu-btn" onClick={props.onClick}>
             <div className="menu-btn__line"></div>
             <div className="menu-btn__line"></div>
         </div>
@@ -42,7 +42,7 @@ function Button() {
 
 class AboutCartoons extends React.Component {
     render() {
-        const AboutCartoons = this.props.data.map(function (item) {
+        const AboutCartoons = this.props.data.map((item) => {
             return (
                 <div class="wrapper">
                     <div className="infomation">
@@ -53,7 +53,7 @@ class AboutCartoons extends React.Component {
                                 {item.content.description}
                             </div>
                         </div>
-                        <Button />
+                        <Button onClick={this.props.onClose} />
                     </div>
 
                     <h2>Episodes</h2>
@@ -89,6 +89,12 @@ class App extends React.Component {
         })
     }
 
+    handlePopupClose = () => {
+        this.setState({
+            showPopup: false
+        })
+    }
+
     render() {
         const { showPopup } = this.state
 
@@ -96,7 +102,7 @@ class App extends React.Component {
             <div>
                 <CardType data={cartoons} onItemClick={this.handleItemClick} />
                 {showPopup && (
-                    <AboutCartoons data={aboutCartoons} />
+                    <AboutCartoons data={aboutCartoons} onClose={this.handlePopupClose} />
                 )}
             </div>
         )
