@@ -61,7 +61,7 @@ class AboutCartoons extends React.Component {
                         {item.episodes.map((episode) => (
                             <div className="episodes__containerVideo">
                                 <Video episode={episode.videoUrl} />
-                                <h3>{episode.name}</h3>
+                                <h3 className="episodes__videoTitle">{episode.name}</h3>
                             </div>
                         ))}
                     </div>
