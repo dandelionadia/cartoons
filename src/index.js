@@ -56,12 +56,14 @@ class AboutCartoons extends React.Component {
                         <Button onClick={this.props.onClose} />
                     </div>
 
-                    <h2>Episodes</h2>
+                    <h3>Episodes</h3>
                     <div className="episodes">
                         {item.episodes.map((episode) => (
-                            <div className="episodes__containerVideo">
-                                <Video episode={episode.videoUrl} />
-                                <h3 className="episodes__videoTitle">{episode.name}</h3>
+                            <div>
+                                <div className="episodes__containerVideo">
+                                    <Video episode={episode.videoUrl} />
+                                </div>
+                                <h4 className="episodes__videoTitle">{episode.name}</h4>
                             </div>
                         ))}
                     </div>

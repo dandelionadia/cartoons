@@ -9,22 +9,22 @@
         "episodes": [
             {
                 "id": 1,
-                "name": "name 1",
+                "name": "Many desktop publishing 1",
                 "videoUrl": "https://www.youtube.com/embed/CbyXlc35Yds"
             },
             {
                 "id": 1,
-                "name": "name 2",
+                "name": "Many desktop publishing 2",
                 "videoUrl": "https://www.youtube.com/embed/CbyXlc35Yds"
             },
             {
                 "id": 1,
-                "name": "name 3",
+                "name": "Many desktop publishing 3",
                 "videoUrl": "https://www.youtube.com/embed/CbyXlc35Yds"
             },
             {
                 "id": 1,
-                "name": "name 4",
+                "name": "Many desktop publishing 4",
                 "videoUrl": "https://www.youtube.com/embed/CbyXlc35Yds"
             }
         ]
