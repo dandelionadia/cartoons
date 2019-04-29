@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Video(props) {
     return (
@@ -6,8 +7,8 @@ function Video(props) {
     )
 }
 
-// Video.propTypes = {
-//     episode: PropTypes.string.isRequired,
-// }
+Video.propTypes = {
+    episode: PropTypes.string.isRequired,
+}
 
 export { Video };

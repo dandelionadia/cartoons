@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Image } from './Image';
 import './cardsList.scss';
 
@@ -9,7 +9,7 @@ class CardsList extends React.Component {
             <div className="box">
                 {this.props.data.map((item) => {
                     return (
-                        <div className="cardsList" key={item.id} onClick={onItemClick}>
+                        <div className="cardsList" key={item.id} onClick={onItemClick(item)}>
                             <Image className="cardsList__img" src={item.img} />
                             <div className="cardsList__text">{item.text}</div>
                         </div>

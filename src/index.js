@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
 import { Popup } from './Popup'
 import { CardsList } from './CardsList';
 import './index.css';
@@ -12,10 +11,12 @@ class App extends React.Component {
         activeCartoon: cartoons[0]
     }
 
-    handleItemClick = () => {
+    handleItemClick = (data) => () => {
         this.setState({
-            showPopup: true
+            showPopup: true,
+            activeCartoon: data
         })
+        console.log(data)
     }
 
     handlePopupClose = () => {
