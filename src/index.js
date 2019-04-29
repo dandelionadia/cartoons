@@ -1,94 +1,45 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Popup } from './Popup'
+import { CardsList } from './CardsList';
 import './index.css';
-import './card.scss';
-import './aboutCartoons.scss';
-import * as serviceWorker from './serviceWorker';
-
 import cartoons from './cartoons.json'
-import aboutCartoons from './aboutCartoons.json'
 
-class CardType extends React.Component {
-    render() {
-        const cardType = this.props.data.map(function (item) {
-            return (
-                <div className="cardType" key={item.id}>
-                    <Image className="cardType__img" src={item.img} />
-                    <div className="cardType__text">{item.text}</div>
-                </div>
-            )
+class App extends React.Component {
+    state = {
+        showPopup: false,
+        activeCartoon: cartoons[0]
+    }
+
+    handleItemClick = (data) => () => {
+        this.setState({
+            showPopup: true,
+            activeCartoon: data
         })
+        console.log(data)
+    }
+
+    handlePopupClose = () => {
+        this.setState({
+            showPopup: false
+        })
+    }
+
+    render() {
+        const { showPopup, activeCartoon } = this.state
 
         return (
-            <div className="box">{cardType}</div>
+            <div>
+                <CardsList data={cartoons} onItemClick={this.handleItemClick} />
+                {showPopup && (
+                    <Popup data={activeCartoon} onClose={this.handlePopupClose} />
+                )}
+            </div>
         )
     }
-}
-
-function Video(props) {
-    return (
-        <iframe className="video" src={props.episode} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    )
-}
-
-function Button() {
-    return (
-        <div className="menu-btn">
-            <div className="menu-btn__line"></div>
-            <div className="menu-btn__line"></div>
-        </div>
-    )
-}
-
-class AboutCartoons extends React.Component {
-    render() {
-        const AboutCartoons = this.props.data.map(function (item) {
-            return (
-                <div class="wrapper">
-                    <div className="infomation">
-                        <img className="image" src={item.image} />
-                        <div className="content">
-                            <h2>{item.content.title}</h2>
-                            <div className="content__text">
-                                {item.content.description}
-                            </div>
-                        </div>
-                        <Button />
-                    </div>
-
-                    <h2>Episodes</h2>
-                    <div className="episodes">
-                        {item.episodes.map((episode) => (
-                            <div className="episodes__containerVideo">
-                                <Video episode={episode.videoUrl} />
-                                <h3 className="episodes__videoTitle">{episode.name}</h3>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            )
-        })
-        return (
-            <div className="container">{AboutCartoons}</div>
-        )
-    }
-}
-
-const Image = ({ src }) => {
-    return <img className="cardType__img" src={src} alt="img" />
-}
-
-const App = () => {
-    return (
-        <div>
-            <CardType data={cartoons} />
-            <AboutCartoons data={aboutCartoons} />
-        </div>
-    )
 }
 
 ReactDOM.render(
     <App />,
-    document.getElementById('root'));
-
-serviceWorker.unregister();
+    document.getElementById('root'),
+);
