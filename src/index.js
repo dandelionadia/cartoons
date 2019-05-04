@@ -11,12 +11,13 @@ class App extends React.Component {
         activeCartoon: cartoons[0]
     }
 
-    handleItemClick = (data) => () => {
-        this.setState({
-            showPopup: true,
-            activeCartoon: data
-        })
-        console.log(data)
+    handleItemClick = (singleCartoon) => {
+        return () => {
+            this.setState({
+                showPopup: true,
+                activeCartoon: singleCartoon
+            })
+        }
     }
 
     handlePopupClose = () => {
