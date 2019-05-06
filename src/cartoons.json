@@ -10,7 +10,7 @@
         "seasons": [
             {
                 "id": 1,
-                "name": "season 1",
+                "name": "1",
                 "image": "https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg?auto=format&dpr=1&crop=faces%2Ctop%2Cright&fit=crop&w=1500&h=800",
                 "episodes": [
                     {
@@ -37,7 +37,7 @@
             },
             {
                 "id": 2,
-                "name": "season 2",
+                "name": "2",
                 "image": "https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg?auto=format&dpr=1&crop=faces%2Ctop%2Cright&fit=crop&w=1500&h=800",
                 "episodes": [
                     {
@@ -64,7 +64,7 @@
             },
             {
                 "id": 3,
-                "name": "season 3",
+                "name": "3",
                 "image": "https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg?auto=format&dpr=1&crop=faces%2Ctop%2Cright&fit=crop&w=1500&h=800",
                 "episodes": [
                     {
@@ -91,7 +91,7 @@
             },
             {
                 "id": 4,
-                "name": "season 4",
+                "name": "4",
                 "image": "https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg?auto=format&dpr=1&crop=faces%2Ctop%2Cright&fit=crop&w=1500&h=800",
                 "episodes": [
                     {
@@ -118,7 +118,7 @@
             },
             {
                 "id": 5,
-                "name": "season 5",
+                "name": "5",
                 "image": "https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg?auto=format&dpr=1&crop=faces%2Ctop%2Cright&fit=crop&w=1500&h=800",
                 "episodes": [
                     {

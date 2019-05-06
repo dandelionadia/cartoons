@@ -35,7 +35,9 @@ class Popup extends React.Component {
                             <div className="season__containerImage">
                                 <img className="season__Image" src={season.image}></img>
                             </div>
-                            <h4 className="season__title">{season.name}</h4>
+                            <div className="season__containerTitle">
+                                <h4 className="season__title">{season.name}</h4>
+                            </div>
                         </div>
                     ))}
                 </div>
