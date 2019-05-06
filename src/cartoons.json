@@ -2,7 +2,7 @@
     {
         "id": 1,
         "img": "https://d1t80wr11ktjcz.cloudfront.net/wp-content/uploads/2018/08/Adventure-Time.jpg",
-        "text": "Text name",
+        "text": "Adventure Time",
         "content": {
             "title": "Title lorem 1",
             "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
@@ -148,13 +148,16 @@
     {
         "id": 2,
         "img": "https://integrallife.com/wp-content/uploads/2016/11/AvatarTheLastAirbender-1200-1200x675.jpg",
-        "text": "Text name",
+        "text": "Avatar Aang",
         "content": {
             "title": "Title lorem 2",
             "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
         },
         "seasons": [
             {
+                "id": 1,
+                "name": "1",
+                "image": "https://m.media-amazon.com/images/M/MV5BOTMwMzM3Y2ItZjc4Ni00MDlkLThmOWUtYTk1ZjliNjEzYTUwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -179,6 +182,9 @@
                 ]
             },
             {
+                "id": 2,
+                "name": "2",
+                "image": "https://m.media-amazon.com/images/M/MV5BOTMwMzM3Y2ItZjc4Ni00MDlkLThmOWUtYTk1ZjliNjEzYTUwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -203,6 +209,9 @@
                 ]
             },
             {
+                "id": 3,
+                "name": "3",
+                "image": "https://m.media-amazon.com/images/M/MV5BOTMwMzM3Y2ItZjc4Ni00MDlkLThmOWUtYTk1ZjliNjEzYTUwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -227,6 +236,9 @@
                 ]
             },
             {
+                "id": 4,
+                "name": "4",
+                "image": "https://m.media-amazon.com/images/M/MV5BOTMwMzM3Y2ItZjc4Ni00MDlkLThmOWUtYTk1ZjliNjEzYTUwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -251,6 +263,9 @@
                 ]
             },
             {
+                "id": 5,
+                "name": "5",
+                "image": "https://m.media-amazon.com/images/M/MV5BOTMwMzM3Y2ItZjc4Ni00MDlkLThmOWUtYTk1ZjliNjEzYTUwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -279,13 +294,16 @@
     {
         "id": 3,
         "img": "https://i.ytimg.com/vi/5o9TKSG2xec/maxresdefault.jpg",
-        "text": "Text name",
+        "text": "Gravity Falls",
         "content": {
             "title": "Title lorem 3",
             "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
         },
         "seasons": [
             {
+                "id": 1,
+                "name": "1",
+                "image": "http://www.gsfdcy.com/data/img/37/1548644-gravity-falls-wallpaper.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -310,6 +328,9 @@
                 ]
             },
             {
+                "id": 2,
+                "name": "2",
+                "image": "http://www.gsfdcy.com/data/img/37/1548644-gravity-falls-wallpaper.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -334,6 +355,9 @@
                 ]
             },
             {
+                "id": 3,
+                "name": "3",
+                "image": "http://www.gsfdcy.com/data/img/37/1548644-gravity-falls-wallpaper.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -358,6 +382,9 @@
                 ]
             },
             {
+                "id": 4,
+                "name": "4",
+                "image": "http://www.gsfdcy.com/data/img/37/1548644-gravity-falls-wallpaper.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -382,6 +409,9 @@
                 ]
             },
             {
+                "id": 5,
+                "name": "5",
+                "image": "http://www.gsfdcy.com/data/img/37/1548644-gravity-falls-wallpaper.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -410,13 +440,16 @@
     {
         "id": 4,
         "img": "https://static1.comicvine.com/uploads/original/2/29361/5300961-naruto_and_fukasaku.png",
-        "text": "Text name",
+        "text": "Naruto",
         "content": {
             "title": "Title lorem 4",
             "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
         },
         "seasons": [
             {
+                "id": 1,
+                "name": "1",
+                "image": "http://www.narutogt.it/files/gallerie/tv/shippuden/189/019.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -441,6 +474,9 @@
                 ]
             },
             {
+                "id": 2,
+                "name": "2",
+                "image": "http://www.narutogt.it/files/gallerie/tv/shippuden/189/019.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -465,6 +501,9 @@
                 ]
             },
             {
+                "id": 3,
+                "name": "3",
+                "image": "http://www.narutogt.it/files/gallerie/tv/shippuden/189/019.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -489,6 +528,9 @@
                 ]
             },
             {
+                "id": 4,
+                "name": "4",
+                "image": "http://www.narutogt.it/files/gallerie/tv/shippuden/189/019.jpg",
                 "episodes": [
                     {
                         "id": 1,
@@ -513,6 +555,9 @@
                 ]
             },
             {
+                "id": 5,
+                "name": "5",
+                "image": "http://www.narutogt.it/files/gallerie/tv/shippuden/189/019.jpg",
                 "episodes": [
                     {
                         "id": 1,
