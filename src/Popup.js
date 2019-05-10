@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from './Button';
-import { Video } from './Video';
+import { ButtonBack } from './ButtonBack';
 import { Episodes } from './Episodes';
 import './popup.scss';
 import './seasons.scss';
@@ -26,7 +26,8 @@ class Popup extends React.Component {
 
     closeEpisodes = () => {
         this.setState({
-            showEpisodes: false
+            showEpisodes: false,
+            activeSeason: null
         })
     }
 
@@ -52,7 +53,7 @@ class Popup extends React.Component {
                     <div className="seasons">
                         {data.seasons.map((season) => (
                             <div key={season.id} className="season">
-                                <div className="season__containerImage" onClick={this.openEpisodes(season)}>
+                                <div className="season__containerImage" onClick={this.openEpisodes(season)} >
                                     <img className="season__Image" src={season.image}></img>
                                 </div>
                                 <div className="season__containerTitle">
@@ -62,7 +63,9 @@ class Popup extends React.Component {
                         ))}
                     </div>
                 )}
-
+                {showEpisodes && (
+                    <ButtonBack onClick={this.closeEpisodes} />
+                )}
                 {showEpisodes && (
                     <Episodes season={activeSeason} close={this.closeEpisodes} />
                 )}
