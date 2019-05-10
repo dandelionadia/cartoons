@@ -8,7 +8,7 @@ import cartoons from './cartoons.json'
 class App extends React.Component {
     state = {
         showPopup: false,
-        activeCartoon: cartoons[0]
+        activeCartoon: null
     }
 
     handleItemClick = (singleCartoon) => {

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from './Button';
-import { Video } from './Video';
+import { ButtonBack } from './ButtonBack';
+import { Episodes } from './Episodes';
 import './popup.scss';
 import './seasons.scss';
 
@@ -10,11 +11,30 @@ class Popup extends React.Component {
         super(props)
         this.state = {
             showEpisodes: false,
-            showSeasons: true
+            activeSeason: null
         }
     }
+
+    openEpisodes = (season) => {
+        return () => {
+            this.setState({
+                showEpisodes: true,
+                activeSeason: season
+            })
+        }
+    }
+
+    closeEpisodes = () => {
+        this.setState({
+            showEpisodes: false,
+            activeSeason: null
+        })
+    }
+
     render() {
         const { data, onClose } = this.props
+        const { showEpisodes, activeSeason } = this.state
+
         const AboutCartoon = (
             <div className="wrapper">
                 <div className="infomation">
@@ -29,28 +49,26 @@ class Popup extends React.Component {
                 </div>
 
                 <h3>Seasons</h3>
-                <div className="seasons">
-                    {data.seasons.map((season) => (
-                        <div key={season.id} className="season">
-                            <div className="season__containerImage">
-                                <img className="season__Image" src={season.image}></img>
+                {!showEpisodes && (
+                    <div className="seasons">
+                        {data.seasons.map((season) => (
+                            <div key={season.id} className="season" onClick={this.openEpisodes(season)}>
+                                <div className="season__containerImage" >
+                                    <img className="season__Image" src={season.image}></img>
+                                </div>
+                                <div className="season__containerTitle">
+                                    <h4 className="season__title">{season.name}</h4>
+                                </div>
                             </div>
-                            <div className="season__containerTitle">
-                                <h4 className="season__title">{season.name}</h4>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-                {/* <div className="episodes">
-                    {data.episodes.map((episode) => (
-                        <div key={episode.id}>
-                            <div className="episodes__containerVideo">
-                                <Video episode={episode.videoUrl} />
-                            </div>
-                            <h4 className="episodes__videoTitle">{episode.name}</h4>
-                        </div>
-                    ))}
-                </div> */}
+                        ))}
+                    </div>
+                )}
+                {showEpisodes && (
+                    <ButtonBack onClick={this.closeEpisodes} />
+                )}
+                {showEpisodes && (
+                    <Episodes season={activeSeason} close={this.closeEpisodes} />
+                )}
             </div>
         )
         return (
