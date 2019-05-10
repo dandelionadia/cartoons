@@ -52,8 +52,8 @@ class Popup extends React.Component {
                 {!showEpisodes && (
                     <div className="seasons">
                         {data.seasons.map((season) => (
-                            <div key={season.id} className="season">
-                                <div className="season__containerImage" onClick={this.openEpisodes(season)} >
+                            <div key={season.id} className="season" onClick={this.openEpisodes(season)}>
+                                <div className="season__containerImage" >
                                     <img className="season__Image" src={season.image}></img>
                                 </div>
                                 <div className="season__containerTitle">
