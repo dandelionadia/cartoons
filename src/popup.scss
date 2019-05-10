@@ -3,9 +3,13 @@
     box-shadow: 0px 2px 3px 1px #143cff33;
     border-radius: 5px;
     padding: 40px;
-    margin: 40px;
+    margin: 40px auto;
+    margin: 0 auto;
     position: absolute;
     top: 0;
+    right: 0;
+    left: 0;
+    max-width: 1000px;
 }
 
 .wrapper {
