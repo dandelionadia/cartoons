@@ -50,6 +50,9 @@ class App extends React.Component {
 
         return (
             <div>
+                <div className="box-h1">
+                    <h1>* Cartoons *</h1>
+                </div>
                 <CardsList data={data} onItemClick={this.handleItemClick} />
                 {showPopup && (
                     <Popup data={activeCartoon} onClose={this.handlePopupClose} />
