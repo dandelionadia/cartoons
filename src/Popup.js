@@ -11,7 +11,8 @@ class Popup extends React.Component {
         super(props)
         this.state = {
             showEpisodes: false,
-            activeSeason: null
+            activeSeason: null,
+            activeSeasonTitle: 'Seasons'
         }
     }
 
@@ -19,7 +20,8 @@ class Popup extends React.Component {
         return () => {
             this.setState({
                 showEpisodes: true,
-                activeSeason: season
+                activeSeason: season,
+                activeSeasonTitle: season.name
             })
         }
     }
@@ -48,7 +50,7 @@ class Popup extends React.Component {
                     <Button onClick={onClose} />
                 </div>
 
-                <h3>Seasons</h3>
+                {showEpisodes ? (<h3>Season {this.state.activeSeasonTitle}</h3>) : (<h3>Seasons</h3>)}
                 {!showEpisodes && (
                     <div className="seasons">
                         {data.seasons.map((season) => (
