@@ -74,7 +74,13 @@ class Popup extends React.Component {
             </div>
         )
         return (
-            <div className="container">{AboutCartoon}</div>
+            <div className="wrapper-container" onClick={onClose}>
+                <div className="container" onClick={(event) => {
+                    event.stopPropagation()
+                }}>
+                    {AboutCartoon}
+                </div>
+            </div>
         )
     }
 }
