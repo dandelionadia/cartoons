@@ -147,8 +147,24 @@
             ],
             "characters": [
                 {
-                    "name": "Mabel",
-                    "img": "https://fictionalfemales.com/wp-content/uploads/sites/4/2017/09/mabel.jpg"
+                    "name": " Mabel",
+                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Mabel",
+                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Mabel",
+                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Mabel",
+                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "color": " red"
                 }
             ]
         },
@@ -452,7 +468,19 @@
             "characters": [
                 {
                     "name": "Mabel",
-                    "img": "https://fictionalfemales.com/wp-content/uploads/sites/4/2017/09/mabel.jpg"
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/6/66/Opening_Mabel_name.png/revision/latest?cb=20120629194148"
+                },
+                {
+                    "name": "Mabel",
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/6/66/Opening_Mabel_name.png/revision/latest?cb=20120629194148"
+                },
+                {
+                    "name": "Mabel",
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/6/66/Opening_Mabel_name.png/revision/latest?cb=20120629194148"
+                },
+                {
+                    "name": "Mabel",
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/6/66/Opening_Mabel_name.png/revision/latest?cb=20120629194148"
                 }
             ]
         },
