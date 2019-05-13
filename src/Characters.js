@@ -10,8 +10,9 @@ class Characters extends React.Component {
                     {this.props.data.characters.map((character) => (
                         <div className="character">
                             <img className="characters__img" src={character.img} alt="image" />
-                            <p><span className="characters__name">Name:</span>{character.name}</p>
-                            <p><span className="characters__name">What does he likes:</span>{character.color}</p>
+                            <div>
+                                <p><span className="characters__name">Name:</span>{character.name}</p>
+                            </div>
                         </div>
                     ))}
                 </div>

@@ -147,23 +147,43 @@
             ],
             "characters": [
                 {
-                    "name": " Mabel",
-                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "name": " jake",
+                    "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-adventure-time-john-dimaggio-jake.jpg",
                     "color": " red"
                 },
                 {
-                    "name": " Mabel",
-                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "name": " Marceline",
+                    "img": "https://66.media.tumblr.com/c493fd439c1cd4614f68af859301910d/tumblr_nyfkzluLQN1umcggyo9_250.png",
+                    "color": " red lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem"
+                },
+                {
+                    "name": " Finn",
+                    "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-adventure-time-jeremy-shada.jpg",
                     "color": " red"
                 },
                 {
-                    "name": " Mabel",
-                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "name": " Fire Princess",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvC5dVG3eiKwbDhTdKPSczfzx-nALBQB7iFf97wSYmtKNNS758",
                     "color": " red"
                 },
                 {
-                    "name": " Mabel",
-                    "img": "https://i.stack.imgur.com/xHWG8.jpg",
+                    "name": " Lumpy",
+                    "img": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/73/LSP%27s_Phone.png/revision/latest?cb=20130724203924",
+                    "color": " red"
+                },
+                {
+                    "name": " Gunter",
+                    "img": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/6/67/S4e2_gunter%27s_keyboard.png/revision/latest?cb=20120507184743",
+                    "color": " red"
+                },
+                {
+                    "name": " Ice King",
+                    "img": "http://images6.fanpop.com/image/photos/33000000/Ice-King-in-the-Window-ice-king-and-marceline-club-33068385-883-647.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Bubblegum",
+                    "img": "https://oooandart.files.wordpress.com/2015/01/princess-bubblegum-2.png?w=396&h=396&crop=1",
                     "color": " red"
                 }
             ]
