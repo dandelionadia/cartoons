@@ -732,7 +732,7 @@
         },
         {
             "id": 6,
-            "img": "http://www.zona-libre.com/wp-content/uploads/2017/10/Rick-and-Morty-season-3-next-episode-release-date-Adult-Swim-886913.jpg",
+            "img": "http://www.ciempiesmagazine.com/wp-content/uploads/2016/09/original.jpg",
             "text": "Rick and Morty",
             "content": {
                 "title": "Title lorem 5",
@@ -871,6 +871,298 @@
                             "id": 4,
                             "name": "Many desktop publishing 4",
                             "videoUrl": "https://www.youtube.com/embed/I1188GO4p1E"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "img": "https://www.syfy.com/sites/syfy/files/2019/04/futurama.png",
+            "text": "Futurama",
+            "content": {
+                "title": "Title lorem 5",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            },
+            "seasons": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "3",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "img": "https://static.vix.com/es/sites/default/files/styles/4x3/public/btg/series.batanga.com/files/Aaahh-Real-Monsters-01.jpg?itok=34tA9cQU",
+            "text": "Aaahh!!! Real Monsters",
+            "content": {
+                "title": "Title lorem 5",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            },
+            "seasons": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "3",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
                         }
                     ]
                 }
