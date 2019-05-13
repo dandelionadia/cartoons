@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Button } from './Button';
 import { ButtonBack } from './ButtonBack';
 import { Episodes } from './Episodes';
+import { Characters } from './Characters';
 import './popup.scss';
 import './seasons.scss';
 
@@ -71,6 +72,7 @@ class Popup extends React.Component {
                 {showEpisodes && (
                     <Episodes season={activeSeason} close={this.closeEpisodes} />
                 )}
+                <Characters data={data} />
             </div>
         )
         return (
