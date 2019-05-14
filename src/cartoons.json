@@ -5,8 +5,8 @@
             "img": "https://d1t80wr11ktjcz.cloudfront.net/wp-content/uploads/2018/08/Adventure-Time.jpg",
             "text": "Adventure Time",
             "content": {
-                "title": "Title lorem 1",
-                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                "title": "Adventure Time",
+                "description": "Adventure Time follows the adventures of a boy named Finn the Human , and his best friend and adoptive brother Jake the Dog, who has magical powers to change shape and size at will. Finn and Jake live in the post-apocalyptic Land of Ooo, which was ravaged by a cataclysmic nuclear war a thousand years before the series' events. Throughout the series, Finn and Jake interact with major characters, including: Princess Bubblegum, the sovereign of the Candy Kingdom and a sentient piece of gum; the Ice King, a menacing but largely misunderstood ice wizard; Marceline the Vampire Queen, a thousand-year-old vampire and rock music enthusiast; Lumpy Space Princess, a melodramatic and immature princess made out of 'lumps'; BMO , a sentient video game console-shaped robot that lives with Finn and Jake; and Flame Princess, a flame elemental and ruler of the Fire Kingdom."
             },
             "seasons": [
                 {
@@ -144,6 +144,48 @@
                         }
                     ]
                 }
+            ],
+            "characters": [
+                {
+                    "name": " jake",
+                    "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-adventure-time-john-dimaggio-jake.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Marceline",
+                    "img": "https://66.media.tumblr.com/c493fd439c1cd4614f68af859301910d/tumblr_nyfkzluLQN1umcggyo9_250.png",
+                    "color": " red lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem"
+                },
+                {
+                    "name": " Finn",
+                    "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-adventure-time-jeremy-shada.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Fire Princess",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvC5dVG3eiKwbDhTdKPSczfzx-nALBQB7iFf97wSYmtKNNS758",
+                    "color": " red"
+                },
+                {
+                    "name": " Lumpy",
+                    "img": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/73/LSP%27s_Phone.png/revision/latest?cb=20130724203924",
+                    "color": " red"
+                },
+                {
+                    "name": " Gunter",
+                    "img": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/6/67/S4e2_gunter%27s_keyboard.png/revision/latest?cb=20120507184743",
+                    "color": " red"
+                },
+                {
+                    "name": " Ice King",
+                    "img": "http://images6.fanpop.com/image/photos/33000000/Ice-King-in-the-Window-ice-king-and-marceline-club-33068385-883-647.jpg",
+                    "color": " red"
+                },
+                {
+                    "name": " Bubblegum",
+                    "img": "https://oooandart.files.wordpress.com/2015/01/princess-bubblegum-2.png?w=396&h=396&crop=1",
+                    "color": " red"
+                }
             ]
         },
         {
@@ -151,8 +193,8 @@
             "img": "https://integrallife.com/wp-content/uploads/2016/11/AvatarTheLastAirbender-1200-1200x675.jpg",
             "text": "Avatar Aang",
             "content": {
-                "title": "Title lorem 2",
-                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                "title": "Avatar Aang",
+                "description": "Avatar: The Last Airbender is set in a world—adjacent to a parallel spirit world—that is home to humans and hybrid animals. Human civilization is divided into four nations, named after the four classical elements: the Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads. Each nation has a distinct society in which select people, known as 'benders'  (waterbenders, earthbenders, firebenders and airbenders), have the ability to telekinetically manipulate and control their nation's element using martial arts. The Avatar is the only person with the ability to bend all four elements.The Avatar, who may be male or female, is an international arbiter whose duty is to maintain harmony among the four nations, and act as a mediator between humans and spirits. "
             },
             "seasons": [
                 {
@@ -290,6 +332,40 @@
                         }
                     ]
                 }
+            ],
+            "characters": [
+                {
+                    "name": " Avatar Aang",
+                    "img": "http://img.babyblog.ru/7/9/4/7944d5c39c4152cc47dd2c740d19654c.bmp"
+                },
+                {
+                    "name": " Sokka",
+                    "img": "https://pp.userapi.com/c11379/u95819918/-1/x_3c24d6dc.jpg"
+                },
+                {
+                    "name": " Katara",
+                    "img": "http://i014.radikal.ru/0806/35/03a818a3296e.jpg"
+                },
+                {
+                    "name": " Zuko",
+                    "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-Avatar-The-Last-Airbender-Dante-Basco.jpg"
+                },
+                {
+                    "name": " Iroh",
+                    "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/avatar-the-last-airbender/a/ad/Iroh_img.jpg?width=325"
+                },
+                {
+                    "name": " Toph",
+                    "img": "http://nadya-cozlova2013.narod.ru/olderfiles/1/tof2.jpg"
+                },
+                {
+                    "name": " Momo",
+                    "img": "https://imgix.ranker.com/user_node_img/50058/1001158933/original/momo-is-an-incarnation-of-aye-aye-the-lemur-spirit-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
+                },
+                {
+                    "name": " Appa",
+                    "img": "https://cs6.pikabu.ru/images/big_size_comm/2014-12_5/14193439632698.jpg"
+                }
             ]
         },
         {
@@ -297,8 +373,8 @@
             "img": "https://i.ytimg.com/vi/5o9TKSG2xec/maxresdefault.jpg",
             "text": "Gravity Falls",
             "content": {
-                "title": "Title lorem 3",
-                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+                "title": "Gravity Falls",
+                "description": "For their summer vacation, 12-year-old Dipper Pines and his twin sister Mabel are dropped off from their home in Piedmont, California, to the fictitious town of Gravity Falls, Roadkill County, Oregon to spend the summer with their Great Uncle Stan Pines (often shortened to Grunkle Stan), who runs a tourist trap called the 'Mystery Shack'. Things are not what they seem in this small town, and with the help of a mysterious journal that Dipper finds in the forest, they begin unraveling the local mysteries. With appearances from Wendy Corduroy, Mystery Shack cashier; Soos Ramirez, a friend of Dipper and Mabel and handyman to Grunkle Stan; plus an assortment of other characters, Dipper and Mabel always have an intriguing day to look forward to."
             },
             "seasons": [
                 {
@@ -435,6 +511,32 @@
                             "videoUrl": "https://www.youtube.com/embed/j8pwukBjIXA"
                         }
                     ]
+                }
+            ],
+            "characters": [
+                {
+                    "name": " Mabel",
+                    "img": "https://fictionalfemales.com/wp-content/uploads/sites/4/2017/09/mabel.jpg"
+                },
+                {
+                    "name": " Dipper",
+                    "img": "https://pm1.narvii.com/6201/fffb53ae4cb9ce6c4eb01659382c9d2ad33b97be_hq.jpg"
+                },
+                {
+                    "name": " Stan",
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/7/7f/S2e11_scratch_chin.png/revision/latest/zoom-crop/width/320/height/320?cb=20150311210903"
+                },
+                {
+                    "name": " Wendy",
+                    "img": "https://vignette.wikia.nocookie.net/gravityfalls/images/c/cc/Wendy.jpg/revision/latest?cb=20160227185105&path-prefix=fr"
+                },
+                {
+                    "name": " Soos",
+                    "img": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/soos-gravity-falls-6.48.jpg"
+                },
+                {
+                    "name": " Waffle",
+                    "img": "https://yt3.ggpht.com/a-/AAuE7mCnA8h3oC6wyjqnC9XH4ZWSbxS1o_zg3Lb0XA=s900-mo-c-c0xffffffff-rj-k-no"
                 }
             ]
         },
@@ -443,7 +545,7 @@
             "img": "https://static1.comicvine.com/uploads/original/2/29361/5300961-naruto_and_fukasaku.png",
             "text": "Naruto",
             "content": {
-                "title": "Title lorem 4",
+                "title": "Naruto",
                 "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
             },
             "seasons": [
@@ -581,6 +683,32 @@
                             "videoUrl": "https://www.youtube.com/embed/h_pHfKTlbmI"
                         }
                     ]
+                }
+            ],
+            "characters": [
+                {
+                    "name": " Naruto",
+                    "img": "https://steamuserimages-a.akamaihd.net/ugc/83719631618296275/6E06262C383C078EBD6C636ECCE0CF0A849F008C/"
+                },
+                {
+                    "name": " Saske",
+                    "img": "https://vignette.wikia.nocookie.net/fansdelanime/images/c/cc/Sasukekun.png/revision/latest?cb=20111109000244&path-prefix=es"
+                },
+                {
+                    "name": " Kakashi",
+                    "img": "http://www.postavy.cz/foto/kakashi-hatake-foto.jpg"
+                },
+                {
+                    "name": " Hinata",
+                    "img": "http://www.postavy.cz/foto/hinata-hyuuga-foto.jpg"
+                },
+                {
+                    "name": " Sakura",
+                    "img": "http://www.postavy.cz/foto/sakura-haruno-foto.jpg"
+                },
+                {
+                    "name": " Itachi",
+                    "img": "https://i.mycdn.me/image?id=665780140664&ts=000000001d000000ad&plc=WEB&tkn=*QVHTVEwYJbedBtvnPuV0fl5tpYU&fn=sqr_288"
                 }
             ]
         },
@@ -589,7 +717,7 @@
             "img": "http://www.thedaymygoddied.com/wp-content/uploads/2018/11/over-the-garden-wall-netsenshi-productions-within-brilliant-over-the-garden-wall-episodes-your-residence-decor-1020x573.jpg",
             "text": "Over the Garden Wall",
             "content": {
-                "title": "Title lorem 5",
+                "title": "Over the Garden Wall",
                 "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
             },
             "seasons": [
@@ -728,14 +856,32 @@
                         }
                     ]
                 }
+            ],
+            "characters": [
+                {
+                    "name": " Wirt",
+                    "img": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/wirt-over-the-garden-wall-85.8.jpg"
+                },
+                {
+                    "name": " Greg",
+                    "img": "https://66.media.tumblr.com/6520207b53ce9d2f8864354d313344d6/tumblr_osu3wc6Tm61wp31huo3_250.jpg"
+                },
+                {
+                    "name": " Frog",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1gd97wcvvgA-817i-FKzbSQwTqgrAMxYL_1wHrgWdJJ0VjFL"
+                },
+                {
+                    "name": " Beatrice",
+                    "img": "https://vignette.wikia.nocookie.net/non-aliencreatures/images/1/1c/Beatrice-OverTheGardenWall.jpg/revision/latest?cb=20170414045752"
+                }
             ]
         },
         {
             "id": 6,
-            "img": "http://www.zona-libre.com/wp-content/uploads/2017/10/Rick-and-Morty-season-3-next-episode-release-date-Adult-Swim-886913.jpg",
+            "img": "http://www.ciempiesmagazine.com/wp-content/uploads/2016/09/original.jpg",
             "text": "Rick and Morty",
             "content": {
-                "title": "Title lorem 5",
+                "title": "Rick and Morty",
                 "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
             },
             "seasons": [
@@ -873,6 +1019,360 @@
                             "videoUrl": "https://www.youtube.com/embed/I1188GO4p1E"
                         }
                     ]
+                }
+            ],
+            "characters": [
+                {
+                    "name": " Rick",
+                    "img": "https://i.cdn.turner.com/adultswim/big/img/2018/01/09/RickMorty2_Marathon_2.jpg"
+                },
+                {
+                    "name": " Morty",
+                    "img": "http://www.postavy.cz/foto/morty-smith-foto.jpg"
+                },
+                {
+                    "name": " Beth",
+                    "img": "http://www.postavy.cz/foto/beth-smith-foto.jpg"
+                },
+                {
+                    "name": " Jerry",
+                    "img": "http://www.postavy.cz/foto/jerry-smith-foto.jpg"
+                },
+                {
+                    "name": " name",
+                    "img": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/summer-rick-and-morty-65.7.jpg"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "img": "https://www.syfy.com/sites/syfy/files/2019/04/futurama.png",
+            "text": "Futurama",
+            "content": {
+                "title": "Futurama",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            },
+            "seasons": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "3",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "image": "https://www.overthinkingit.com/wp-content/uploads/2013/09/futurama-hypnotoad_00394921.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/LE1drY3A418"
+                        }
+                    ]
+                }
+            ],
+            "characters": [
+                {
+                    "name": " Leela",
+                    "img": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/turanga-leela-futurama-92.5.jpg"
+                },
+                {
+                    "name": " Fry",
+                    "img": "http://new2.fjcdn.com/comments/Maybe%2Bif%2Bi%2Bkeep%2Bwatching%2B_7af6b68a2f3e501c562cc98eb1242ae7.jpg"
+                },
+                {
+                    "name": " Bender",
+                    "img": "https://i.stack.imgur.com/Itky1.jpg"
+                },
+                {
+                    "name": " Zoidberg",
+                    "img": "http://cdn.shopify.com/s/files/1/0748/0217/products/zoidberg_thumb_ba512b84-e17b-4936-83da-6702c3f367a0_grande.jpg?v=1438476161"
+                },
+                {
+                    "name": " Profesor Hubert J. Farnsworth",
+                    "img": "https://vignette.wikia.nocookie.net/en.futurama/images/e/ea/F-Ray.jpg/revision/latest?cb=20071229175858"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "img": "https://static.vix.com/es/sites/default/files/styles/4x3/public/btg/series.batanga.com/files/Aaahh-Real-Monsters-01.jpg?itok=34tA9cQU",
+            "text": "Aaahh!!! Real Monsters",
+            "content": {
+                "title": "Aaahh!!! Real Monsters",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            },
+            "seasons": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "3",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "image": "http://images.fanpop.com/images/image_uploads/Aaaaaah---Real-Monsters-old-school-nickelodeon-516322_392_240.jpg",
+                    "episodes": [
+                        {
+                            "id": 1,
+                            "name": "Many desktop publishing 1",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Many desktop publishing 2",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Many desktop publishing 3",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Many desktop publishing 4",
+                            "videoUrl": "https://www.youtube.com/embed/8VfPz-2V8PU"
+                        }
+                    ]
+                }
+            ],
+            "characters": [
+                {
+                    "name": " The Gromble",
+                    "img": "http://media7.veleto.ru/media/files/s1/hg/kj/nastoyaschie-monstryi-scene-1.jpg"
+                },
+                {
+                    "name": " Krumm",
+                    "img": "https://i.pinimg.com/originals/47/c0/76/47c076e4b2ad02d980bbbb9f7216faed.jpg"
+                },
+                {
+                    "name": " Oblina",
+                    "img": " https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4bc4cf2d-c721-4023-bd4c-084c02992041/d1apyko-60e72522-ac9b-4404-b19a-8d34c7a4ddba.jpg/v1/fill/w_600,h_600,q_75,strp/oblina_from_ahh_real_monsters_by_locomocoyum_d1apyko-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvNGJjNGNmMmQtYzcyMS00MDIzLWJkNGMtMDg0YzAyOTkyMDQxXC9kMWFweWtvLTYwZTcyNTIyLWFjOWItNDQwNC1iMTlhLThkMzRjN2E0ZGRiYS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.syF2qLebWXbEslOiXUp6Q_Bo0rM9lT9xZ90VI1jU7P4"
+                },
+                {
+                    "name": " Ickis",
+                    "img": "https://cdn.playbuzz.com/cdn//250bd706-d128-4db2-87dc-cfe6c37ab8ac/2ccca8e8-0bb6-4fc0-b7c5-c05b597af079.jpg"
                 }
             ]
         }
